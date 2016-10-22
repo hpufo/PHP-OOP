@@ -1,7 +1,7 @@
 <?php
     require_once('Shape.php');
     
-    abstract class Parallelogram extends Shape{
+    class Parallelogram extends Shape{
         
         private $a;
         private $b;     //length

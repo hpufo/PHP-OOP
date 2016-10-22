@@ -27,7 +27,7 @@
             $c = sqrt(pow($this->a,2) + pow($this->b,2));
             $this->calcArea();
             $this->calcPerimeter();
-            return array("a"=>$this->a, "b"=>$this->b, "c"=>$c, "area"=>$this->getArea(), "perimeter"=>$this->getPerimeter());
+            return array("SideA"=>$this->a, "SideB"=>$this->b, "SideC"=>$c, "area"=>$this->getArea(), "perimeter"=>$this->getPerimeter());
         }
     }
 ?>

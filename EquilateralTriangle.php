@@ -1,6 +1,7 @@
 <?php
+    require_once('Shape.php');
+    
     class EquilateralTriangle extends Shape{
-        require_once('Shape.php');
         
         private $sides;
         

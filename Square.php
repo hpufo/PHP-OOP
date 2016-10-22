@@ -8,7 +8,4 @@
             $this->l = $sides;
         }
     }
-    
-    $square = new Square(5);
-    echo var_dump($square->getDimensions());
 ?>
